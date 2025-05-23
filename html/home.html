@@ -194,6 +194,36 @@
 
 
 
+<section class="bg-gradient-to-r from-[#0f172a] to-[#1e293b] text-white px-6 py-16">
+  <div class="max-w-6xl mx-auto text-center">
+    <h3 class="text-indigo-400 font-semibold text-sm uppercase mb-2">Our track record</h3>
+    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+      Trusted by thousands of investors globally
+    </h2>
+    <p class="text-gray-300 text-base md:text-lg max-w-3xl mx-auto">
+      With a focus on transparency, security, and performance, we’ve built a platform where investors can confidently grow their money with fixed-term investments and reliable returns.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-12 text-center">
+      <div>
+        <p class="text-3xl font-extrabold">15,000+</p>
+        <p class="text-sm text-gray-400 mt-1">Active investors</p>
+      </div>
+      <div>
+        <p class="text-3xl font-extrabold">2.5%</p>
+        <p class="text-sm text-gray-400 mt-1">Average monthly return</p>
+      </div>
+      <div>
+        <p class="text-3xl font-extrabold">99.99%</p>
+        <p class="text-sm text-gray-400 mt-1">Platform uptime</p>
+      </div>
+      <div>
+        <p class="text-3xl font-extrabold">$120M+</p>
+        <p class="text-sm text-gray-400 mt-1">Capital invested</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -239,13 +269,404 @@ Choose your plan. Invest. Watch your profits grow—on time, every time.</p>
    </main>
 </section>
 
-<section>
-<center> WHY CHOOSE US</center>
 
-<main>
-    <img src="../asset/image/why-choose-us.jpg" alt="">
-</main>
+ 
+ 
+
+  <script>
+    document.querySelectorAll('.toggle-faq').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        content.classList.toggle('hidden');
+        const icon = btn.querySelector('svg');
+        icon.classList.toggle('rotate-180');
+      });
+    });
+  </script>
+ 
+<section class="py-12 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Choose Your Investment Plan</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+      <!-- Plan 1 -->
+      <div class="w-full max-w-sm rounded-lg shadow-lg overflow-hidden bg-white">
+        <div class="relative bg-gradient-to-r from-white via-white to-blue-100 p-6">
+          <h3 class="text-2xl font-bold text-gray-800">BASIC 1000</h3>
+          <p class="mt-2 text-xl font-bold text-gray-900">$10 – $100</p>
+
+          <ul class="mt-4 space-y-3 text-sm text-gray-700">
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Return 0.5%
+            </li>
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Every 3 Day(s)
+            </li>
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Basic Support
+            </li>
+          </ul>
+
+          <button class="mt-6 w-full bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded transition">
+            Get Started
+          </button>
+          <p class="text-center mt-2 text-sm text-gray-500">for 3 day</p>
+        </div>
+      </div>
+
+      <!-- Plan 2 -->
+      <div class="w-full max-w-sm rounded-lg shadow-lg overflow-hidden bg-white">
+        <div class="relative bg-gradient-to-r from-white via-white to-blue-100 p-6">
+          <h3 class="text-2xl font-bold text-gray-800">EXECUTIVE 10000</h3>
+          <p class="mt-2 text-xl font-bold text-gray-900">$31 – $1051</p>
+
+          <ul class="mt-4 space-y-3 text-sm text-gray-700">
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Return 1.1%
+            </li>
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Every 6 Day(s)
+            </li>
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Priority Support
+            </li>
+          </ul>
+
+          <button class="mt-6 w-full bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded transition">
+            Get Started
+          </button>
+          <p class="text-center mt-2 text-sm text-gray-500">for 6 day</p>
+        </div>
+      </div>
+
+      <!-- Plan 3 -->
+      <div class="w-full max-w-sm rounded-lg shadow-lg overflow-hidden bg-white">
+        <div class="relative bg-gradient-to-r from-white via-white to-blue-100 p-6">
+          <h3 class="text-2xl font-bold text-gray-800">PLATINUM 380000</h3>
+          <p class="mt-2 text-xl font-bold text-gray-900">$21 – $1231</p>
+
+          <ul class="mt-4 space-y-3 text-sm text-gray-700">
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Return 1.0%
+            </li>
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Every 5 Day(s)
+            </li>
+            <li class="flex items-center">
+              <span class="text-purple-600 mr-2">✔</span> Premium Support
+            </li>
+          </ul>
+
+          <button class="mt-6 w-full bg-red-600 hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded transition">
+            Get Started
+          </button>
+          <p class="text-center mt-2 text-sm text-gray-500">for 5 day</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<section class="max-w-5xl mx-auto mt-20 px-6">
+  <h2 class="text-4xl font-bold mb-10 text-center text-black">Why Choose Us</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <!-- Feature 1 -->
+    <div class="bg-gray-900 rounded-lg p-8 shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+      <svg class="w-12 h-12 mb-4 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 20l9-5-9-5-9 5 9 5z"></path>
+        <path d="M12 12v8"></path>
+        <path d="M12 12l9-5-9-5-9 5 9 5z"></path>
+      </svg>
+      <h3 class="text-xl font-semibold mb-2">Trusted & Secure</h3>
+      <p class="text-gray-300">We prioritize your security with top-notch encryption and regulatory compliance.</p>
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="bg-gray-900 rounded-lg p-8 shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+      <svg class="w-12 h-12 mb-4 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <path d="M8 12l2 2 4-4"></path>
+      </svg>
+      <h3 class="text-xl font-semibold mb-2">Expert Guidance</h3>
+      <p class="text-gray-300">Our seasoned advisors help you make informed investment decisions tailored to your goals.</p>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="bg-gray-900 rounded-lg p-8 shadow-lg hover:shadow-blue-600 transition-shadow duration-300">
+      <svg class="w-12 h-12 mb-4 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 12h18M9 6v12M15 6v12"></path>
+      </svg>
+      <h3 class="text-xl font-semibold mb-2">Transparent Fees</h3>
+      <p class="text-gray-300">No hidden charges—what you see is what you get. Clear pricing for your peace of mind.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+ <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl  !text-black mt-[4%] font-bold text-center mb-10">Frequently Asked Questions</h2>
+
+    <div class="space-y-4 !text-black">
+      <!-- FAQ Template -->
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 focus:outline-none toggle-faq">
+          <span>1. What is this investment platform all about?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          We offer fixed-term investment plans with guaranteed profit. Select a plan, invest, and receive your return when the term ends.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>2. How does the profit system work?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Each plan displays a profit percentage. At the end of the term, your original investment plus the promised profit is returned.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>3. Is my investment safe?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Yes, we use bank-level security and only invest in low-risk, vetted opportunities. Your funds are safe and monitored 24/7.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>4. When will I get my returns?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Returns are processed automatically at the end of the investment term and credited to your account balance.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>5. Can I withdraw before the term ends?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Most plans are locked until maturity to ensure return stability. Some flexible plans allow early withdrawal with adjusted returns.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>6. What payment methods do you accept?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          We accept bank transfers, major credit/debit cards, and select cryptocurrencies including Bitcoin and USDT.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>7. How do I start investing?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Simply create an account, verify your identity, deposit funds, and choose an investment plan to begin.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>8. Do I need investment experience?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Not at all! Our platform is built for both beginners and experts. We guide you at every step.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>9. Are there any hidden fees?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          No. All fees are clearly displayed before you invest. Transparency is our priority.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>10. How do I contact support?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          You can reach us via live chat, email, or our contact form. Support is available 24/7.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>11. Is there a referral program?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Yes! Invite friends and earn a bonus each time they invest. Details are on your dashboard.
+        </div>
+      </div>
+
+      <div class="border border-gray-300 rounded-md bg-white shadow-sm">
+        <button class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 toggle-faq">
+          <span>12. Is KYC required?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="px-4 pb-4 hidden">
+          Yes, for your security and compliance, identity verification is required before you can invest or withdraw.
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="successModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+  <!-- Modal Card -->
+  <div class="bg-white rounded-xl shadow-2xl w-[90%] max-w-md p-6 animate-fade-in-up relative">
+    
+    <!-- Close Button -->
+    <button onclick="toggleModal()" class="absolute top-2 right-2 text-gray-500 hover:text-red-500 text-2xl font-bold">&times;</button>
+    
+    <!-- Image and Message -->
+    <div class="flex flex-col items-center" id="testimonialContent">
+      <!-- Dynamic content inserted via JS -->
+    </div>
+  </div>
+</div>
+
+<!-- Fade Animation -->
+<style>
+  .animate-fade-in-up {
+    animation: fadeInUp 0.4s ease-out forwards;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  const testimonials = [
+    {
+      name: "David",
+      img: "https://randomuser.me/api/portraits/men/75.jpg",
+      invested: "$1,000",
+      received: "$1,250"
+    },
+    {
+      name: "Lisa",
+      img: "https://randomuser.me/api/portraits/women/65.jpg",
+      invested: "$2,000",
+      received: "$2,800"
+    },
+    {
+      name: "James",
+      img: "https://randomuser.me/api/portraits/men/35.jpg",
+      invested: "$500",
+      received: "$620"
+    },
+    {
+      name: "Amara",
+      img: "https://randomuser.me/api/portraits/women/45.jpg",
+      invested: "$3,000",
+      received: "$4,100"
+    },
+    {
+      name: "Kofi",
+      img: "https://randomuser.me/api/portraits/men/28.jpg",
+      invested: "$750",
+      received: "$960"
+    }
+  ];
+
+  function toggleModal() {
+    document.getElementById('successModal').classList.toggle('hidden');
+  }
+
+  function showRandomTestimonial() {
+    const random = testimonials[Math.floor(Math.random() * testimonials.length)];
+    const content = `
+      <img src="${random.img}" alt="${random.name}" class="w-24 h-24 rounded-full border-4 border-indigo-600 mb-4" />
+      <h2 class="text-xl font-bold text-gray-800">${random.name} just got paid!</h2>
+      <p class="text-center mt-3 text-gray-600">
+        ${random.name} invested <span class="font-semibold text-green-600">${random.invested}</span> and just received <span class="font-semibold text-green-600">${random.received}</span> — straight to their wallet.
+      </p>
+      <button onclick="window.location.href='/register'" class="mt-5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded-lg">
+        Start Investing Now
+      </button>
+    `;
+    document.getElementById('testimonialContent').innerHTML = content;
+    toggleModal();
+  }
+
+  // Show modal automatically after delay
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(showRandomTestimonial, 2500); // 2.5 seconds
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
